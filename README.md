@@ -1,5 +1,5 @@
 # Mistii
 Mistii provides a range of delicious homemade chocolates.
 
-#Introduction
+## Introduction
 This is a E-commerce website made using Django.
