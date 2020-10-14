@@ -11,9 +11,21 @@
     <title>Mishtii</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="G:\Web Dev Projects\mishti\style.css">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Josefin+Sans&family=Montserrat&family=Poppins:wght@300&display=swap"
+        rel="stylesheet">
+
+
+
+    <link rel="stylesheet" type="text/css" href="static/font/flaticon.css">
+    <link rel="stylesheet" type="text/css" href="static/icomoon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -21,10 +33,13 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
+    <link rel="stylesheet" href="G:\Web Dev Projects\mishti\style.css">
+
 
 </head>
 
-<body>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -32,21 +47,22 @@
     <!--Nav Bar-->
     <nav class="navbar  navbar-fixed-top">
         <div class="container-fluid">
+           
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
                     <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                    <span class="icon-bar"  ></span>
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#">Mishtii</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#home">HOME</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#products">PRODUCTS</a></li>
-                    <li><a href="#products">REVIEWS</a></li>
-                    <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#homeid">HOME</a></li>
+                    <li><a href="#aboutid">ABOUT</a></li>
+                    <li><a href="#productsid">PRODUCTS</a></li>
+                    <li><a href="#reviewsid">REVIEWS</a></li>
+                    <li><a href="#contactid">CONTACT</a></li>
                 </ul>
             </div>
         </div>
@@ -54,6 +70,7 @@
 
 
     <!--Corousal-->
+<section id="homeid" class="homeid-head">
 
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -61,32 +78,58 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
                 <img src="static/main mishtii.jpg" alt="New York">
-                <div class="carousel-caption">
+               <!-- <div class="carousel-caption">
                     <h3>New York</h3>
                     <p>The atmosphere in New York is lorem ipsum.</p>
-                </div>
+                </div> -->
             </div>
 
             <div class="item">
                 <img src="static/IMG_20200919_201840_489-02.jpeg" alt="Chicago">
+               <!--
                 <div class="carousel-caption">
                     <h3>Chicago</h3>
                     <p>Thank you, Chicago - A night we won't forget.</p>
                 </div>
+               --> 
             </div>
 
             <div class="item">
-                <img src="static/black@4x.png" alt="Los Angeles">
+                <img src="static/hero-img-1.png" alt="Los Angeles">
+              <!--
                 <div class="carousel-caption">
                     <h3>LA</h3>
                     <p>Even though the traffic was a mess, we had the best time.</p>
                 </div>
+              -->  
+            </div>
+
+            <div class="item">
+                <img src="static/heroimg-2.png" alt="Los Angeles">
+              <!--
+                <div class="carousel-caption">
+                    <h3>LA</h3>
+                    <p>Even though the traffic was a mess, we had the best time.</p>
+                </div>
+              -->  
+            </div>
+
+            <div class="item">
+                <img src="static/heroimg-3.png" alt="Los Angeles">
+              <!--
+                <div class="carousel-caption">
+                    <h3>LA</h3>
+                    <p>Even though the traffic was a mess, we had the best time.</p>
+                </div>
+              -->  
             </div>
         </div>
 
@@ -100,187 +143,932 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
+</section>
+    
 
-    <div class="container text-center">
-
-        <h3>MISHTII</h3>
-        <p><em>On a mission to spread smiles!</em></p>
-        <p>Homemade chocolates with 100% love and care..</p>
-
-        <p>
-            Lots of people concur chocolate is scrumptious, however delicious chocolate itself can be found in all forms
-            and selections.
-            From dark to milk, and also economical to refined, the taste variations of delicious
-            chocolate is based upon concentration of initial cacao in the chocolate, high quality of components and
-            ingredients used.
-            While delicious chocolate is often enjoyed alone, it additionally pairs well with various other foods.
-        </p>
-
-    </div>
-
-    <div class="container-fluid conspace">
-        <div class="row">
-            <div class="col-sm-8">
-                <h2>About Company Page</h2>
-                <h4>Lorem ipsum..</h4>
-                <p>Lorem ipsum..</p>
-                <button class="btn btn-default btn-lg">Get in Touch</button>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-signal logo"></span>
-            </div>
-        </div>
-    </div>
-
-    <div class="container-fluid bg-grey conspace">
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-globe logo"></span>
-            </div>
-            <div class="col-sm-8">
-                <h2>Our Values</h2>
-                <h4><strong>MISSION:</strong> Our mission lorem ipsum..</h4>
-                <p><strong>VISION:</strong> Our vision Lorem ipsum..</p>
-            </div>
-        </div>
-    </div>
+    <section class="about flex-container" id="aboutid">
 
 
-    <div class="container-fluid text-center conspace">
-        <h2>SERVICES</h2>
-        <h4>What we offer</h4>
-        <br>
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-off logo-small"></span>
-                <h4>POWER</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-heart logo-small"></span>
-                <h4>LOVE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-lock logo-small"></span>
-                <h4>JOB DONE</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-        <br><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-leaf logo-small"></span>
-                <h4>GREEN</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-certificate logo-small"></span>
-                <h4>CERTIFIED</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-            <div class="col-sm-4">
-                <span class="glyphicon glyphicon-wrench logo-small"></span>
-                <h4>HARD WORK</h4>
-                <p>Lorem ipsum dolor sit amet..</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="container-fluid text-center bg-grey">
-        <h2>Portfolio</h2>
-        <h4>What we have created</h4>
-        <div class="row text-center">
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="static/IMG_20200920_135208.jpg" alt="Paris">
-                    <p><strong>Paris</strong></p>
-                    <p>Yes, we built Paris</p>
+
+        <div class="one-half img" style="background-image: url(static/pexels-lisa-fotios-918327.jpg);"></div>
+        <div class="one-half ">
+            <div class="overlap ">
+
+                <div class="heading-section ">
+                    <span class="subheading hideme">Discover </span>
+                    <h2 class="mb-4 mainheading hideme" >&nbsp;&nbsp;Mishtii</h2>
                 </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="static/IMG_20200920_135208.jpg" alt="New York">
-                    <p><strong>New York</strong></p>
-                    <p>We built New York</p>
+                <div class="hideme">
+                    <p><em>On a mission to spread smiles!</em></p>
+                    <p>Homemade chocolates with 100% love and care..</p>
+    
+                    <p>
+                        Chocolate is happiness that you can eat.<br>
+                        Chocolate is love without words.<br>
+                        Chocolate has been a gift that can never go wrong.<br>
+                        Be it a gift on a first date, for valentines,<br>
+                        For an anniversary or to make up after a fight.<br>
+                        There are a million reasons to gift chocolates.<br>
+    
+                        Indulge in the delights from Kanchan Sharma's chocolate boutique "Mishti"
+                    </p>
                 </div>
+               
+
             </div>
-            <div class="col-sm-4">
-                <div class="thumbnail">
-                    <img src="static/IMG_20200920_135208.jpg" alt="San Francisco">
-                    <p><strong>San Francisco</strong></p>
-                    <p>Yes, San Fran is ours</p>
-                </div>
-            </div>
+
         </div>
+    </section>
 
-
-        <h2>What our customers say</h2>
-        <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active">
-                    <h4>"This company is the best. I am so happy with the result!"<br><span
-                            style="font-style:normal;">Michael Roe, Vice President, Comment Box</span></h4>
-                </div>
-                <div class="item">
-                    <h4>"One word... WOW!!"<br><span style="font-style:normal;">John Doe, Salesman, Rep Inc</span></h4>
-                </div>
-                <div class="item">
-                    <h4>"Could I... BE any more happy with this company?"<br><span style="font-style:normal;">Chandler
-                            Bing, Actor, FriendsAlot</span></h4>
-                </div>
-            </div>
-
-            <!-- Left and right controls -->
-            <a class="left carousel-control abc" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control abc" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-
-        <div class="container-fluid bg-grey">
-            <h2 class="text-center">CONTACT</h2>
+    <section class="features">
+        <div class="container">
             <div class="row">
-                <div class="col-sm-5">
-                    <p>Contact us and we'll get back to you within 24 hours.</p>
-                    <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
-                    <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
-                    <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p>
+
+                <div class="col-md-3">
+
+                    <div class="flip-card centering hideme">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="media d-block text-center block-6 services">
+                                    <div class="icon d-flex justify-content-center align-items-center ">
+                                        <span class="flaticon-choices"></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <span class="highlightme">
+                                    Select your favourites from our variety of products and contact us easily.
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading justify-content-center align-items-center ser-head ">Easy to Order</h3>
+
+                    </div>
+
+
+
+
                 </div>
-                <div class="col-sm-7">
-                    <div class="row">
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                        </div>
-                        <div class="col-sm-6 form-group">
-                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-                                required>
+
+
+                <div class="col-md-3">
+                    <div class="flip-card centering hideme">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="media d-block text-center block-6 services">
+                                    <div class="icon d-flex justify-content-center align-items-center ">
+                                        <span class="flaticon-food-delivery"></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <span class="highlightme">
+                                    We deliver your chocolates fresh and fast in Delhi-NCR and throughout India.
+                                </span>
+
+                            </div>
                         </div>
                     </div>
-                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
-                        rows="5"></textarea><br>
-                    <div class="row">
-                        <div class="col-sm-12 form-group">
-                            <button class="btn btn-default pull-right" type="submit">Send</button>
+                    <div class="media-body">
+                        <h3 class="heading justify-content-center align-items-center ser-head ">Fastest Delivery</h3>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="flip-card centering hideme">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="media d-block text-center block-6 services">
+                                    <div class="icon d-flex justify-content-center align-items-center ">
+                                        <span class="flaticon-cocoa-bean"></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <span class="highlightme">
+                                    Our chocolates are prepared from fresh and highest quality cocoa beans.
+                                </span>
+
+                            </div>
                         </div>
                     </div>
+                    <div class="media-body">
+                        <h3 class="heading justify-content-center align-items-center ser-head ">Quality Chocolates</h3>
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="flip-card centering hideme">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <div class="media d-block text-center block-6 services">
+                                    <div class="icon d-flex justify-content-center align-items-center ">
+                                        <span class="flaticon-happiness"></span>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="flip-card-back">
+                                <span class="highlightme">
+                                    Prepared using nutricious ingredients that keep you healthy and elevate your mood .
+                                </span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="heading justify-content-center align-items-center ser-head">Healthy and Nutricious
+                        </h3>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- PRODUCTS Section-->
+
+    <section class="products" id="productsid">
+        <div class="container">
+
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-12 heading-section text-center hideme">
+                    <span class="subheading">Discover</span>
+                    <h2 class="mb-4 mainheading">Our Products</h2>
+                    <p>Indulge your sweet tooth in the variety of chocolates available here</p>
+                </div>
+            </div>
+
+            <div class="row d-md-flex">
+                <div class="col-lg-12 p-md-5 ">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <ul class="nav nav-pills justify-content-center mb-5 hideme">
+                                <li class="nav-link active  "><a data-toggle="pill" href="#boxes">Boxes</a></li>
+                                <li class="nav-link"><a data-toggle="pill" href="#jars">Jars</a></li>
+                                <li class="nav-link"><a data-toggle="pill" href="#granola">Granola</a></li>
+
+                            </ul>
+
+                            <div class="col-md-12 d-flex align-items-center ">
+                                <div class="tab-content">
+                                    <div id="boxes" class="tab-pane fade in active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-5 hideme">
+
+                                                    <a href="#" class="image-popup"><img
+                                                            src="static/istockphoto chocomix.jpg" class="prod-img"
+                                                            alt="Colorlib Template"></a>
+
+                                
+
+                                                </div>
+                                                <div class="col-lg-6 product-details pl-md-5 ftco-animate hideme">
+                                                    <h3>CHOCOLATE BOX-1</h3>
+                                                    <p class="price"><span>&#x20B9
+                                                            400</span>(12 pieces)</p>
+                                                    <p class="price"><span>&#x20B9 950</span>(24 pieces)</p>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia. It is a paradisematic country, in
+                                                        which roasted parts of sentences fly into your mouth.</p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                            <hr style="width:50%;text-align:center;color:#c49b63;">
+
+                                            <div class="row">
+
+                                                <div class="col-lg-6 product-details pl-md-5 ftco-animate hideme">
+                                                    <h3>CHOCOLATE BOX-2</h3>
+                                                    <p class="price"><span> &#x20B9 600</span>(12 pieces)</p>
+                                                    <p class="price"><span>=&#x20B9 1250</span>(24 pieces)</p>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia. It is a paradisematic country, in
+                                                        which roasted parts of sentences fly into your mouth.</p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    
+                                                </div>
+
+
+
+                                                <div class="col-lg-6 mb-5 ftco-animate hideme">
+
+                                                    <a href="#" class="image-popup"><img src="static/chocobox-2.jpg"
+                                                            class="prod-img" alt="Colorlib Template"></a>
+
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    
+                                    <div id="jars" class="tab-pane fade">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-5 ftco-animate hideme">
+
+                                                    <a href="#" class="image-popup"><img src="static/jar-3.jpg"
+                                                            class="prod-img" alt="Colorlib Template"></a>
+
+                                                    <!--
+                                                        <div class="one-half img"
+                                                        style="background-image: url(static/granola-1.jpg);"></div>
+                                                    -->
+
+                                                </div>
+                                                <div class="col-lg-6 product-details pl-md-5 ftco-animate hideme">
+                                                    <h3>CHOCOLATE JAR</h3>
+                                                    <p class="price"><span>&#x20B9 200</span></p>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia. It is a paradisematic country, in
+                                                        which roasted parts of sentences fly into your mouth.</p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                   
+                                   
+                                    <div id="granola" class="tab-pane fade">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-5 ftco-animate hideme">
+
+                                                    <a href="static/granola-1.jpg" class="image-popup"><img
+                                                            src="static/granola-1.jpg" class="prod-img"
+                                                            alt="Colorlib Template"></a>
+
+                                                    <!--
+                                                        <div class="one-half img"
+                                                        style="background-image: url(static/granola-1.jpg);"></div>
+                                                    -->
+
+                                                </div>
+                                                <div class="col-lg-6 product-details pl-md-5 ftco-animate hideme">
+                                                    <h3>GRANOLA JAR</h3>
+                                                    <p class="price"><span>&#x20B9 300</span></p>
+                                                    <p>A small river named Duden flows by their place and supplies it
+                                                        with the necessary regelialia. It is a paradisematic country, in
+                                                        which roasted parts of sentences fly into your mouth.</p>
+                                                    <p>On her way she met a copy. The copy warned the Little Blind Text,
+                                                        that where it came from it would have been rewritten a thousand
+                                                        times and everything that was left from its origin would be the
+                                                        word "and" and the Little Blind Text should turn around and
+                                                        return to its own, safe country.
+                                                    </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="orders">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="media d-block text-center block-6 services">
+                        <div class="icon d-flex justify-content-center align-items-center " style="border: 1px solid black;">
+                            <span class="flaticon-choices"></span>
+                        </div>
+
+                    </div>
+                </div>
+            
+                <div class="col-md-9">   
+                    <div class="row justify-content-center mb-5">
+                        <div class="col-md-12 heading-section text-center ftco-animate hideme">
+                            <span class="subheading-order">Place</span>
+                            <h2 class="mb-4 mainheading">your Order</h2>
+                            <p>Place your order here and we will contact you within 24 hours.</p>
+                        </div>
+                        <div class="col-md-12">
+                            
+                                
+                            <!-- Trigger the modal with a button -->
+                                <div class="row">
+                                    <div class="col-md-3"></div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-default   btn-block ordbtn" id="myBtn" data-toggle="modal" data-target="#myModal">Order Now</button>
+                                    </div>
+                                </div>
+                                
+                                                            
+                            
+                                
+                               
+                              
+                                <!-- Modal -->
+                                <div class="modal fade" id="myModal" role="dialog">
+                                  <div class="modal-dialog">
+                                  
+                                        <!-- Modal content-->
+                                        <div class="modal-content ftco-bg-light">
+                                        <!--<div class="modal-header" style="padding:15px 25px;">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4><span class="glyphicon glyphicon-lock"></span>Your Order </h4>
+                                            <p>Placeyour order here and we will contact you within 24 hours.</p>
+                                            <p>Chocobox -1</p>
+                                        </div>
+                                        -->
+                                        
+                                
+                                        <div class="modal-body " >
+                                            <form role="form" action="#" class="billing-form p-3 p-md-5">
+                                                <button type="button" class="close " data-dismiss="modal">&times;</button>
+                                                <h3 class="mb-4 billing-heading habc">Order Details</h3>
+                                
+                                                <div class="row align-items-end">
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="productname">Product</label>
+                                                            <!--<input type="text" class="form-control" id="productname" value="Chocobox - 1"placeholder="" readonly> 
+                                                            -->
+                                                            <select id="productname" name="productname" class="form-control">
+                                                                <option value="Box1-12">ChocoBox-1 (12 pcs)</option>
+                                                                <option value="Box-1-24">ChocoBox-1 (24 pcs)</option>
+                                                                <option value="Box-2-12">ChocoBox-2 (12 pcs)</option>
+                                                                <option value="Box-2-24">ChocoBox-2 (24 pcs)</option>
+                                                                <option value="ChocoJar">Choco Jar</option>
+                                                                <option value="Granola">Granola Jar</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="w-100"></div>
+                                
+                                                   <!--
+                                                         <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="size">Size</label>
+                                                                <select id="size" name="size" class="form-control">
+                                                                    <option value="small">Small(12 pcs)</option>
+                                                                    <option value="regular">Regular(24 pcs)</option>
+                                                                </select>
+                                
+                                                        </div>
+                                                    </div>
+                                                    
+                                                   -->
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="quantity">Quantity</label>
+                                                            <input type="number" id="quantity" class="form-control" placeholder="1" id="quantity" value="1" min="1" max="10">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="w-100"></div>
+                                
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="firstname">First Name</label>
+                                                            <input type="text" id="firstname" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="lastname">Last Name</label>
+                                                            <input type="text" id="lastname" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="w-100"></div>
+                                                    
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="address">Address</label>
+                                                            <!-- <input type="text" class="form-control" id="address" placeholder="House number and street name"> -->
+                                                            <textarea name="address" class="form-control" id="address" rows="3" ></textarea>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="w-100"></div>
+                                                    
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="phone">Phone</label>
+                                                            <input type="text"  id="phone" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                        <div class="form-group">
+                                                            <label for="emailaddress">Email Address</label>
+                                                            <input type="email" id="emailaddress" class="form-control" placeholder="">
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-md-12">
+                                                        <div class="form-group">
+                                                            <label for="addinfo">Additional Information</label>
+                                                            <!-- <input type="text" class="form-control" id="address" placeholder="House number and street name"> -->
+                                                            <textarea name="addinfo" class="form-control" id="addinfo" rows="3" ></textarea>
+                                                        </div>
+                                                    </div>
+                                
+                                                    <div class="col-md-4">
+                                                        <button type="submit" class="btn btn-primary btn-default pull-left btn-block" data-dismiss="modal">Cancel</button>
+                                                    </div>
+                                
+                                                    <div class="col-md-8">
+                                                        <button type="submit" class="btn  btn-primary pull-left btn-block" data-dismiss="modal">Place an Order</button>
+                                                    </div>
+                                    
+                                                </div>
+                                
+                                            </form>
+                                        </div>
+                                     <!--
+                                        <div class="modal-footer">
+                                             </div>
+                                     --> 
+                                        
+                            
+                            
+                                        
+                                     
+                                    </div>
+                                    
+                                  </div>
+                                </div> 
+
+                            
+                               
+                             
+
+
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </div>
 
-        <script src="" async defer></script>
+        </div>
+    </section>
+
+
+    <section class="reviews" id="reviewsid">
+
+        <div class="row justify-content-center mb-5">
+            <div class="col-md-12 heading-section text-center hideme">
+                <span class="subheading">Testimonials</span>
+                <h2 class="mb-4 mainheading">customer says</h2>
+                <p>These are some of the reviews from our customers</p>
+            </div>
+        </div>
+
+        
+        <div class="slideshow-container">
+            <div class="main1  w3-animate-right hideme" >
+                <div class="box left" style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Mandeep Kaur</h2>
+
+
+                    </div>
+                    <p>"Chocolates made by you are very tasty and delicious :) I like them very much as my mouth is still watering for more. Thankeew for the amazing taste."</p>
+                    <br>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+                </div>
+
+                <div class="box" style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Sukanya Yogesh</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>
+                        "You are not making chocolates but making happiness in your kitchen. Chocolates are really stress busters. Lots of love and best wishes.
+                        I am sure when you make the chocolate with the beautiful smile on your face, They are going to be super yummilicious."
+                    </p>
+                    
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="box"  style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Rajni Sharma</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>"Very tasty and Yummy. I would recommend it as i like the taste as well as the packaging. Also the customer service is really good. Love these chocolates"</p>
+                    <br>
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+                </div>
+            </div>
+            <div class="main1 w3-animate-right">
+                <div class="box left"  style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Titiksha Sharma</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>
+                        "So delicious chocolates!! A joy for the tastebuds!! Thank you soo much for the chocolates!!
+                        Will surely recommend Mishtii to everyone!"
+                    </p>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="box" style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Sneha Vaid</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>
+                       "Simply the best sweet to have! They have a really good menu! "
+                    </p>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="box"  style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Niharika Gandhi</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p> "The chocolates are amazingly delicious, and the butterscotch flavour was so pleasant, it felt almost out of the world."</p>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="main1  w3-animate-right">
+                <div class="box left"  style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Ruchira Ganguli</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>
+                        "Excellent taste of the chocolates.. Very very yum :) better than cadbury infact... Even my family loved it."
+                    </p>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+
+                </div>
+
+                <div class="box"  style=" background-color: white;">
+
+                    <img src="static/pictures/2.jpg">
+                    <div class="right">
+                        <h2>Mehak Vohra</h2>
+
+                        <h3></h3>
+                    </div>
+                    <p>
+                        "It was really mouth watering. The chocolates that you delivered were really delicious, mouth watering and delectable. "
+                     </p>
+                    <br>
+
+                    <div class=star>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                        <i class="fa fa-star" style="color:#c49b63; font-size:120%"></i>
+                    </div>
+
+                </div>
+
+                
+
+
+           
+        </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="dot1" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        
+
+
+    </section>
+    
+
+    <section class="contact-us" id="contactid">
+        <div class="container">
+
+            <div class="row mb-5">
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                  <div class="ftco-footer-widget mb-4 hideme">
+                    <h2 class="ftco-heading-2">About Us</h2>
+                    <p>Mishtii is a venture to provide high quality, healthy and hygenic homemade chocolates. We deliver fast and fresh. </p>
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                      <li class="ftco-animate"><a href="#"><span class="	fa fa-facebook"></span></a></li>
+                      <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                      <li class="ftco-animate"><a href="#"><span class="	fa fa-twitter"></span></a></li>
+                    </ul>
+                  </div>
+                </div>
+              
+                <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+                   <div class="ftco-footer-widget mb-4 ml-md-4 hideme">
+                    <h2 class="ftco-heading-2 hideme">Products</h2>
+                    <ul class="list-unstyled">
+                      <li><a href="#" class="py-2 d-block hideme">ChocoBox</a></li>
+                      <li><a href="#" class="py-2 d-block hideme">ChocoJar</a></li>
+                      <li><a href="#" class="py-2 d-block hideme">Granola</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+                  <div class="ftco-footer-widget mb-4 hideme">
+                      <h2 class="ftco-heading-2">Contact Us </h2>
+                      <div class="block-23 mb-3">
+                        <ul>
+                          <li><span class="icon glyphicon glyphicon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                          <li><a href="#"><span class="icon glyphicon glyphicon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                          <li><a href="#"><span class="icon glyphicon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                        </ul>
+                      </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mb-5 mb-md-5">
+                    <div class="ftco-footer-widget mb-4 hideme">
+                      <h2 class="ftco-heading-2">Have a question?</h2>
+                      <div class="block-21 mb-4">
+  
+                          <div class="row">
+                              <div class="col-sm-6 form-group">
+                                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                              </div>
+                              <div class="col-sm-6 form-group">
+                                  <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                      required>
+                              </div>
+                          </div>
+                          <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                              rows="5"></textarea><br>
+                          <div class="row">
+                              <div class="col-sm-12 form-group">
+                                  <button class="btn btn-default pull-right" type="submit">Send</button>
+                              </div>
+                          </div>
+  
+                      </div>
+                    
+                    </div>
+                  </div>
+
+              </div>
+              
+
+        </div>
+
+    </section>
+
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+          <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Website Made By <a href="#" title="">TechnoSeams</a></p>
+      </footer>
+
+      <!-- loader
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+ -->
+ <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("main1");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+</script>
+
+
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links in navbar + footer link
+          $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== ""){
+              // Prevent default anchor click behavior
+              event.preventDefault();
+        
+              // Store hash
+              var hash = this.hash;
+        
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+              }, 900, function(){
+           
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+            } // End if
+          });
+        })
+        </script>
+
+        <script>
+
+$(document).ready(function() {
+    
+    /* Every time the window is scrolled ... */
+    $(window).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.hideme').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});
+        </script>
 </body>
+
 
 </html>
