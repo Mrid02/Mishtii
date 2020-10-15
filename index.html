@@ -950,23 +950,26 @@
                     <div class="ftco-footer-widget mb-4 hideme">
                       <h2 class="ftco-heading-2">Have a question?</h2>
                       <div class="block-21 mb-4">
-  
-                          <div class="row">
-                              <div class="col-sm-6 form-group">
-                                  <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                              </div>
-                              <div class="col-sm-6 form-group">
-                                  <input class="form-control" id="email" name="email" placeholder="Email" type="email"
-                                      required>
-                              </div>
-                          </div>
-                          <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
-                              rows="5"></textarea><br>
-                          <div class="row">
-                              <div class="col-sm-12 form-group">
-                                  <button class="btn btn-default pull-right" type="submit">Send</button>
-                              </div>
-                          </div>
+                        <form role="form" method="POST"  name="contact-form" data-netlify="true">
+                            <div class="row">
+                                <div class="col-sm-6 form-group">
+                                    <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                                </div>
+                                <div class="col-sm-6 form-group">
+                                    <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                        required>
+                                </div>
+                            </div>
+                            <textarea class="form-control" id="comments" name="comments" placeholder="Comment"
+                                rows="5"></textarea><br>
+                            <div class="row">
+                                <div class="col-sm-12 form-group">
+                                    <button class="btn btn-default pull-right" type="submit">Send</button>
+                                </div>
+                            </div>
+
+                        </form>
+                         
   
                       </div>
                     
