@@ -1,13 +1,16 @@
 body {
     overflow-x: hidden !important;
 }
+
+/*
 .container {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
+*/
 
-html{
-	overflow-x: hidden !important;
+html {
+    overflow-x: hidden !important;
 }
 
 .p-3 {
@@ -436,7 +439,7 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 
-    position: relative;
+    position: fixed;
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 1 !important;
@@ -1722,7 +1725,7 @@ footer a:hover {
     height: 74vh;
 }
 
-.reviews .grid-container {
+/*.reviews .grid-container {
     display: inline-grid;
     grid-template-columns: auto auto auto;
     margin: 0px;
@@ -1730,7 +1733,7 @@ footer a:hover {
     height: 60%;
     border: 0px;
     position: absolute;
-}
+}*/
 
 .reviews .img {
     width: 100%;
@@ -1810,33 +1813,33 @@ footer a:hover {
         font-size: 400%;
     }
 
-    .start {
+    .reviews .start {
         margin: 0px;
     }
 }
 
 @media only screen and (max-width: 1000px) {
-    .start {
+    .reviews .start {
         margin-top: -65vh;
     }
 
-    .head1 {
+    .reviews .head1 {
         width: 96%;
         height: auto;
     }
 
-    .grid-container {
+    .reviews .grid-container {
         margin: 0% 2% 0% 2%;
         width: 96%;
         display: grid;
         height: 35vh;
     }
 
-    .flip-box {
+    .reviews .flip-box {
         height: 30vh;
     }
 
-    .six {
+    .reviews .six {
         font-size: 1000%;
     }
 
@@ -1844,50 +1847,50 @@ footer a:hover {
         font-size: 400%;
     }
 
-    .box {
+    .reviews .box {
         background-color: white;
         width: 45%;
     }
 
-    .head {
+    .reviews .head {
         width: 60%;
         display: block;
         position: relative;
         margin-top: 70vh;
     }
 
-    .slideshow-container {
+    .reviews .slideshow-container {
         position: relative;
     }
 
-    .left {
+    .reviews .left {
         margin: 2%;
     }
 
-    .box h2 {
+    .reviews .box h2 {
         font-size: 150%;
     }
 
-    .box h3 {
+    .reviews .box h3 {
         font-size: 100%;
     }
 
-    .box p {
+    .reviews .box p {
         font-size: 110%;
     }
 }
 
 @media only screen and (max-width: 850px) {
-    .start {
+    .reviews .start {
         margin-top: -65vh;
     }
 
-    .head1 {
+    .reviews .head1 {
         width: 100%;
         height: auto;
     }
 
-    .grid-container {
+    .reviews .grid-container {
         background-color: white;
         margin: 0% 2%;
         width: 100%;
@@ -1895,23 +1898,23 @@ footer a:hover {
         height: 35vh;
     }
 
-    .flip-box {
+    .reviews .flip-box {
         height: 27vh;
     }
 
-    .box h2 {
+    .reviews .box h2 {
         font-size: 150%;
     }
 
-    .box h3 {
+    .reviews .box h3 {
         font-size: 100%;
     }
 
-    .box p {
+    .reviews .box p {
         font-size: 110%;
     }
 
-    .six {
+    .reviews .six {
         font-size: 650%;
     }
 
@@ -1919,7 +1922,7 @@ footer a:hover {
         font-size: 300%;
     }
 
-    .box {
+    .reviews .box {
         width: 55%;
         margin-left: 25%;
         margin-right: 25%;
@@ -1927,7 +1930,7 @@ footer a:hover {
         background-color: white;
     }
 
-    .head {
+    .reviews .head {
         width: 80%;
         display: block;
         position: relative;
@@ -1935,11 +1938,11 @@ footer a:hover {
         font-size: 250%;
     }
 
-    .slideshow-container {
+    .reviews .slideshow-container {
         position: relative;
     }
 
-    .boxleft {
+    .reviews .boxleft {
         background-color: white;
         margin-left: 18vh;
         height: auto;
@@ -1953,4 +1956,47 @@ footer a:hover {
     width: 100%;
     display: block;
 
+}
+
+/* Box Menu */
+.menu-wrap {
+    margin-bottom: 60px;
+}
+
+.menu-wrap .menu-img {
+    display: block;
+    height: 270px;
+}
+
+.menu-wrap .text h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu-wrap .text h3 a {
+    color: #fff;
+}
+
+.menu-wrap .text .price {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/*.menu-wrap .text .price span {
+    color: #fff;
+}*/
+
+.menu-wrap .price span {
+    font-size: 30px;
+    color: #f8b500;
+}
+
+.menu-wrap .text .sizebox {
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.menu-wrap .text .sizebox span {
+    color: #fff;
 }
