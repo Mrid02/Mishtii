@@ -593,7 +593,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="quantity">Quantity</label>
-                                                            <input type="number" id="quantity" class="form-control" placeholder="1" id="quantity" value="1" min="1" max="10">
+                                                            <input name="quantity" type="number" id="quantity" class="form-control" placeholder="1" id="quantity" value="1" min="1" max="10">
                                                         </div>
                                                     </div>
                                 
@@ -602,14 +602,14 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="firstname">First Name</label>
-                                                            <input type="text" id="firstname" class="form-control" placeholder="">
+                                                            <input type="text" id="firstname" class="form-control" placeholder="" name="firstname">
                                                         </div>
                                                     </div>
                                                     
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="lastname">Last Name</label>
-                                                            <input type="text" id="lastname" class="form-control" placeholder="">
+                                                            <input type="text" id="lastname" class="form-control" placeholder="" name="lastname">
                                                         </div>
                                                     </div>
                                                     
@@ -619,7 +619,7 @@
                                                         <div class="form-group">
                                                             <label for="address">Address</label>
                                                             <!-- <input type="text" class="form-control" id="address" placeholder="House number and street name"> -->
-                                                            <textarea name="address" class="form-control" id="address" rows="3" ></textarea>
+                                                            <textarea name="address" class="form-control" id="address" rows="3" name="address"></textarea>
                                                         </div>
                                                     </div>
                                                     
@@ -628,13 +628,13 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="phone">Phone</label>
-                                                            <input type="text"  id="phone" class="form-control" placeholder="">
+                                                            <input type="text"  id="phone" class="form-control" placeholder="" name="phone">
                                                         </div>
                                                     </div>
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="emailaddress">Email Address</label>
-                                                            <input type="email" id="emailaddress" class="form-control" placeholder="">
+                                                            <input type="email" id="emailaddress" class="form-control" placeholder="" name="email">
                                                         </div>
                                                     </div>
                                 
@@ -642,16 +642,16 @@
                                                         <div class="form-group">
                                                             <label for="addinfo">Additional Information</label>
                                                             <!-- <input type="text" class="form-control" id="address" placeholder="House number and street name"> -->
-                                                            <textarea name="addinfo" class="form-control" id="addinfo" rows="3" ></textarea>
+                                                            <textarea name="addinfo" class="form-control" id="addinfo" rows="3" name="additionalinfo"></textarea>
                                                         </div>
                                                     </div>
                                 
                                                     <div class="col-md-4">
-                                                        <button type="submit" class="btn btn-primary btn-default pull-left btn-block" data-dismiss="modal">Cancel</button>
+                                                        <button type="button" class="btn btn-primary btn-default pull-left btn-block" data-dismiss="modal">Cancel</button>
                                                     </div>
                                 
                                                     <div class="col-md-8">
-                                                        <button type="submit" class="btn  btn-primary pull-left btn-block" data-dismiss="modal">Place an Order</button>
+                                                        <button type="submit" class="btn  btn-primary pull-left btn-block" >Place an Order</button>
                                                     </div>
                                     
                                                 </div>
