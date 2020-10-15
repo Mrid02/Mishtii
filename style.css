@@ -424,7 +424,7 @@ body {
     padding-bottom: 10px;
     padding-top: 10px;
 
-    /*position: relative;*/
+    position: relative;
     text-transform: uppercase;
     letter-spacing: 2px;
     opacity: 1 !important;
@@ -479,33 +479,30 @@ body {
     border-color: transparent;
 }
 
-
+/*
 @media (max-width:599px) {
     .carousel-inner img {
-        /* -webkit-filter: grayscale(90%);
-        filter: grayscale(90%);*/
-        /* make all photos black and white */
         width: 100%;
         height: 400px !important;
-        /* Set width to 100% */
         margin: auto;
     }
 
 }
+*/
 
 
-@media (min-width:600px) {
-    .carousel-inner img {
-        /* -webkit-filter: grayscale(90%);
+.carousel-inner img {
+    /* -webkit-filter: grayscale(90%);
         filter: grayscale(90%);*/
-        /* make all photos black and white */
-        width: 100%;
-        height: 600px !important;
-        /* Set width to 100% */
-        margin: auto;
-    }
-
+    /* make all photos black and white */
+    width: 100%;
+    height: auto;
+    /* Set width to 100% */
+    margin: auto;
+    max-height: 600px;
 }
+
+
 
 
 .carousel-caption h3 {
@@ -523,10 +520,10 @@ body {
     padding: 80px 120px;
 }*/
 
-
+/*
 homeid-head {
     margin-top: 10em;
-}
+}*/
 
 @media screen and (max-width: 768px) {
     .col-sm-4 {
@@ -1603,7 +1600,7 @@ footer a:hover {
 }
 
 .reviews .box {
-    /background-color: white;
+    /* background-color: white;*/
     margin: 0% 2%;
     height: 700px;
     width: 27%;
@@ -1633,7 +1630,7 @@ footer a:hover {
 
 .reviews .box h2 {
     width: 70%;
-    //font-family: Montserrat;
+    /*font-family: Montserrat;*/
     font-size: 120%;
     margin: 0px;
 }
@@ -1641,13 +1638,13 @@ footer a:hover {
 .reviews .box h3 {
     font-size: 90%;
     width: 40%;
-    //font-family: Montserrat;
+    /*font-family: Montserrat;*/
     color: grey;
     margin-top: 0px;
 }
 
 .reviews .box p {
-    //font-family: Montserrat;
+    /*font-family: Montserrat;*/
     letter-spacing: 2px;
     color: #565656;
     font-size: 80%;
