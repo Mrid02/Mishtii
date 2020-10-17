@@ -511,10 +511,12 @@ body {
         filter: grayscale(90%);*/
     /* make all photos black and white */
     width: 100%;
-    height: auto;
     /* Set width to 100% */
     margin: auto;
-    max-height: 750px;
+    max-height: 95vh;
+    object-fit: cover;
+    object-position: center center;
+
 }
 
 
