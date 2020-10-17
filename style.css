@@ -514,7 +514,7 @@ body {
     height: auto;
     /* Set width to 100% */
     margin: auto;
-    max-height: 600px;
+    max-height: 750px;
 }
 
 
@@ -833,6 +833,10 @@ homeid-head {
     align-items: center !important;
 }
 
+.featimg {
+    padding: 0;
+    margin: 0;
+}
 
 .flip-card {
     background-color: #c49b63;
@@ -882,7 +886,7 @@ homeid-head {
     text-align: left !important;
     font-size: 20px;
 
-    padding: 15px 5px 0 5px;
+    padding: 0;
     justify-content: center;
 
     background-color: #c49b63;
