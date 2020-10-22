@@ -2027,3 +2027,25 @@ footer a:hover {
 .menu-wrap .text .sizebox span {
     color: #fff;
 }
+
+
+
+.menu-link .glyphicon {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #c49b63;
+
+}
+
+.menu-link p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-link a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.menu-link a:hover {
+    color: #fff;
+}
