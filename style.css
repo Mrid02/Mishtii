@@ -634,7 +634,28 @@ homeid-head {
     line-height: 1;
     margin-bottom: -40px;
     z-index: 1;
+
 }
+
+.newheading {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 0;
+    font-family: "Great Vibes", cursive;
+    color: #c49b63;
+    line-height: 1;
+    /*margin-bottom: -40px;*/
+    z-index: 2;
+}
+
+.newheading2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+
+
 
 .mainheading {
     z-index: 1;
@@ -1043,7 +1064,7 @@ homeid-head {
 
     /*display: block;
     height: 350px;*/
-    padding: 2em;
+    padding: 0.5em;
     max-width: 100%;
     height: auto;
     vertical-align: middle;
@@ -1622,7 +1643,7 @@ footer a:hover {
 
 .reviews .box {
     /* background-color: white;*/
-    margin: 0% 2%;
+    margin: 2% 2%;
     height: 700px;
     width: 27%;
     box-shadow: 10px 10px 10px 10px grey;
@@ -1929,9 +1950,9 @@ footer a:hover {
     }
 
     .reviews .box {
-        width: 55%;
-        margin-left: 25%;
-        margin-right: 25%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
         height: auto;
         background-color: white;
     }
@@ -1966,7 +1987,7 @@ footer a:hover {
 
 /* Box Menu */
 .menu-wrap {
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .menu-wrap .menu-img {
