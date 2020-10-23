@@ -7,6 +7,6 @@ https://mishtiichocolates.netlify.app/
 
 
 ## Introduction
-This is a home made chocolate ordering website made using html, css, javascript and bootstrap. It also order and contact forms.
+This is a home made chocolate ordering website made using html, css, javascript and bootstrap. It also has order and contact forms.
 
 
