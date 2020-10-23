@@ -1,7 +1,7 @@
 # Mishtii
 Mishtii provides a range of delicious homemade chocolates.
 
-# Link to th website:
+## Link to the website:
 https://mishtiichocolates.netlify.app/
 
 
